@@ -49,5 +49,5 @@ export function specialViewMode(canvas, cropBox) {
  * @returns {boolean}
  */
 function compare (a, b, isBigger) {
-    return a > b === isBigger && a !== b;
+    return Math.round(a) > Math.round(b) === isBigger && Math.round(a) !== Math.round(b);
 }
