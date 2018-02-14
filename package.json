@@ -1,6 +1,6 @@
 {
   "name": "croppersvm",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Special view mode for cropperjs",
   "main": "index.js",
   "repository": "b2cprint/croppersvm",

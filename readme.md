@@ -17,7 +17,10 @@ var cropper = new Cropper(image, {
 
     var newCanvasData = specialViewMode(canvas, cropBox);
 
-    if (newCanvasData.width || newCanvasData.left || newCanvasData.top) {
+    if (newCanvasData.hasOwnProperty('width') ||
+        newCanvasData.hasOwnProperty('left') ||
+        newCanvasData.hasOwnProperty('top')
+    ) {
         cropper.setCanvasData(newCanvasData);
     }
   }
