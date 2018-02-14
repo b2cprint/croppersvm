@@ -1,6 +1,6 @@
 {
   "name": "croppersvm",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Special view mode for cropperjs",
   "main": "index.js",
   "scripts": {
