@@ -1,8 +1,9 @@
 {
   "name": "croppersvm",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Special view mode for cropperjs",
   "main": "index.js",
+  "repository": "b2cprint/croppersvm",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +12,5 @@
     "cropperjs"
   ],
   "author": "Peter Makadi",
-  "license": "ISC"
+  "license": "MIT"
 }
