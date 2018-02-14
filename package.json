@@ -1,0 +1,15 @@
+{
+  "name": "croppersvm",
+  "version": "1.0.3",
+  "description": "Special view mode for cropperjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cropper",
+    "cropperjs"
+  ],
+  "author": "Peter Makadi",
+  "license": "ISC"
+}
